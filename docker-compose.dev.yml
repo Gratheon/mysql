@@ -10,7 +10,7 @@ services:
       MYSQL_DATABASE: swarm-api
     mem_limit: 1G
     ports:
-      - 60003:3306
+      - 5100:3306
     volumes:
       - mysql:/var/lib/mysql
     network_mode: bridge
