@@ -13,7 +13,6 @@ services:
       - 5100:3306
     volumes:
       - mysql:/var/lib/mysql
-    network_mode: bridge
     networks:
       - gratheon
 
