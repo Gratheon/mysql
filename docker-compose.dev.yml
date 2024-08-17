@@ -14,11 +14,11 @@ services:
     volumes:
       - mysql82:/var/lib/mysql
       - ./my.cnf:/etc/mysql/conf.d/my.cnf
-    networks:
-      - gratheon
+#    networks:
+#      - gratheon
 
 volumes:
   mysql82:
 
-networks:
-  gratheon:
+#networks:
+#  gratheon:
