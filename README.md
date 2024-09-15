@@ -1,9 +1,10 @@
 ## @gratheon/mysql
 
-A simple mysql container config to develop locally
+A simple mysql container config to develop locally.
+To run, use [just](https://github.com/casey/just) runner:
 
 ```
-make start
+just start
 ```
 
 Note: You cannot use Sequel Pro (even nightly builds) to connect.
