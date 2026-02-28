@@ -14,6 +14,7 @@ services:
     volumes:
       - mysql82:/var/lib/mysql
       - ./my.cnf:/etc/mysql/conf.d/my.cnf
+      - ./init-databases.sql:/docker-entrypoint-initdb.d/init-databases.sql
 
 volumes:
   mysql82:
